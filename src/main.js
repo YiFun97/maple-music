@@ -12,7 +12,7 @@ import './common/stylus/index.styl'
 // })
 fastclick.attach(document.body)
 
-
+// 测试git
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
