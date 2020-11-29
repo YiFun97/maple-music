@@ -6,13 +6,13 @@ import App from './App'
 import router from './router'
 import fastclick from 'fastclick'
 import './common/stylus/index.styl'
-
+import axios from 'axios'
 // Vue.use(VueLazyLoad,{
 // loading:"/static/loading-svg/loading-bars.svg"
 // })
 fastclick.attach(document.body)
 
-// 测试git
+Vue.prototype.$axios = axios;
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
